@@ -1,2 +1,2 @@
 # cicd-test
-for test purposes
+only for test purposes
