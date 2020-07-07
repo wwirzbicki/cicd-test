@@ -4,11 +4,12 @@
 name: Gradle Package
 
 on:
-  release:
-    types: [created]
-#  push:
-#    tags:
-#      - 'v*'    
+# event release nie dziala gdy release jest tworzony z pushowanego taga
+#  release:
+#    types: [created]
+  push:
+    tags:
+      - 'v*'    
 jobs:
   build:
 
